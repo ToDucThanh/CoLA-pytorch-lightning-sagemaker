@@ -1,0 +1,3 @@
+__pycache__/
+notebooks/local/models/*
+.DS_Store
