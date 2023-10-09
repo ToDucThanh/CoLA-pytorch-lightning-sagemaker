@@ -63,7 +63,7 @@ def tokenize_sentence(self, batch):
 ```
 Initially, I intended to tune 4 jobs; however, the process has consumed a significant amount of time and utilized GPU resources, resulting in substantial costs. I decided to tune only 2 jobs. The [hyperparameter_tuning.ipynb](notebooks/hyperparameter_tuning.ipynb) notebook used [hpo.py](src/hpo.py) script. The objective metric is Average Validation Loss.
 
-![Tuning-jobs](assets/tuning_jobs.png)
+![Tuning-jobs](assets/TuningJobs.png)
 
 Because there are only 2 jobs, the result does not improve much. The optimal values are:
 * Batch size: 64
